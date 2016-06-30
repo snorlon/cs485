@@ -1,0 +1,36 @@
+Instructions:
+
+    For all parts
+
+        To setup makefile:
+            Copy files from part desired into main folder that contains CMakeLists.txt
+                If you want 1A, you copy all files from the 1a folder to the location that the CMakeFiles folder is located
+
+            cmake .
+            make
+
+
+        Notes:
+            For all parts, the gaussin blur sigma can be set in DisplayImage.cpp, it is not a command-line parameter
+
+    Part 1
+        make clean; make
+        ./DisplayImage
+
+        or
+
+        ./DisplayImage <imagepath>
+
+        ex: ./DisplayImage resources/lenna.pgm
+
+    Part 2
+        make clean; make
+        ./DisplayImage <imagepath>
+
+        ex: ./DisplayImage resources/lenna.pgm
+
+    Part 3
+        make clean; make
+        ./DisplayImage <imagepath> <start delta> <end delta>
+
+        ex: ./DisplayImage resources/lenna.pgm 1 4
